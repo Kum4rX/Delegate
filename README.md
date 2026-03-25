@@ -370,5 +370,4 @@ MIT — use freely, attribution appreciated.
  
 Built for the **Authorized to Act** hackathon · Auth0 + Anthropic · 2026
  
-</div>#   D e l e g a t e  
- 
+</div>
