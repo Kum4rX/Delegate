@@ -1,0 +1,12 @@
+var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/auth/[auth0]/route.js")
+R.c("server/chunks/01vo_next_010.1s.._.js")
+R.c("server/chunks/01vo_@opentelemetry_api_build_esm_13za-mk._.js")
+R.c("server/chunks/01vo_jose_dist_node_cjs_0-mxhtc._.js")
+R.c("server/chunks/01vo_@auth0_nextjs-auth0_dist_0tgqrg_._.js")
+R.c("server/chunks/01vo_joi_00j8wl9._.js")
+R.c("server/chunks/01vo_openid-client_060oowr._.js")
+R.c("server/chunks/01vo_0s4aefv._.js")
+R.c("server/chunks/[root-of-the-server]__0uut9xr._.js")
+R.c("server/chunks/082u_delegate__next-internal_server_app_api_auth_[auth0]_route_actions_0er74_b.js")
+R.m("[project]/Downloads/delegate/delegate/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Downloads/delegate/delegate/app/api/auth/[auth0]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/Downloads/delegate/delegate/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Downloads/delegate/delegate/app/api/auth/[auth0]/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

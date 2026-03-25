@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 112, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/kumar/Downloads/delegate/delegate/app/api/auth/%5Bauth0%5D/route.ts"],"sourcesContent":["import { handleAuth, handleLogin } from '@auth0/nextjs-auth0'\n\nexport const GET = handleAuth({\n  login: handleLogin({\n    authorizationParams: {\n      // Request Google scopes at login time via Auth0 connection\n      connection: 'google-oauth2',\n      connection_scope: [\n        'https://www.googleapis.com/auth/gmail.readonly',\n        'https://www.googleapis.com/auth/gmail.send',\n        'https://www.googleapis.com/auth/gmail.compose',\n        'https://www.googleapis.com/auth/calendar.readonly',\n        'https://www.googleapis.com/auth/calendar.events',\n      ].join(' '),\n      access_type: 'offline', // needed to get refresh token\n      prompt: 'consent',\n    },\n  }),\n})\n"],"names":["GET","login","authorizationParams","connection","connection_scope","join","access_type","prompt"],"mappings":";;;;AAAA;;AAEO,MAAMA,MAAM,IAAA,gNAAU,EAAC;IAC5BC,OAAO,IAAA,iNAAW,EAAC;QACjBC,qBAAqB;YACnB,2DAA2D;YAC3DC,YAAY;YACZC,kBAAkB;gBAChB;gBACA;gBACA;gBACA;gBACA;aACD,CAACC,IAAI,CAAC;YACPC,aAAa;YACbC,QAAQ;QACV;IACF;AACF"}}]
+}
