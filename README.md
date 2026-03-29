@@ -28,14 +28,14 @@ The agent never touches raw tokens.
 Delegate is an AI chief of staff powered by Claude that manages your Gmail and Google Calendar. It's built on top of **Auth0 Token Vault**, which means your Google credentials are stored and refreshed by Auth0 — your application and the agent never hold raw OAuth tokens.
  
 ```
-You: "Cancel my 3pm with Priya and send her an apology"
+You: "Cancel my 3pm with Bhanu and send her an apology"
  
-Delegate: Found "Product sync with Priya" at 3:00 PM today.
+Delegate: Found "Product sync with Bhanu" at 3:00 PM today.
  
   ┌─────────────────────────────────────────┐
   │  ⚠  Step-up confirmation required       │
   │                                         │
-  │  Send apology email to priya@co.com     │
+  │  Send an apology email to bhanu@co.com     │
   │  and delete the calendar event?         │
   │                                         │
   │  [Confirm]          [Cancel]            │
@@ -151,7 +151,7 @@ User types a message
  
 ```
   Layer 1 ─── Token Vault credential isolation
-               Google OAuth tokens stored and refreshed by Auth0.
+               Google OAuth tokens are stored and refreshed by Auth0.
                The agent exchanges a reference, never the raw token.
  
   Layer 2 ─── Minimum viable scopes
