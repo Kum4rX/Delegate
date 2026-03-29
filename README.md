@@ -35,7 +35,7 @@ Delegate: Found "Product sync with Bhanu" at 3:00 PM today.
   ┌─────────────────────────────────────────┐
   │  ⚠  Step-up confirmation required       │
   │                                         │
-  │  Send an apology email to bhanu@co.com     │
+  │  Send an apology email to bhanu@co.com  │
   │  and delete the calendar event?         │
   │                                         │
   │  [Confirm]          [Cancel]            │
